@@ -33,7 +33,7 @@ public class GoogleDistanceApi : IGoogleDistanceApi
                         {
                             Distance = new Distance
                             {
-                                Text = $"{distance} km",
+                                Text = $"{distance} mi",
                                 Value = distanceValue
                             },
                             Duration = new Duration
